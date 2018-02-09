@@ -12,6 +12,7 @@ def user_input():
     number = int(input("Please, input the number of films" + '\n'))
     return year, number
 
+
 def reading_films(path, year):
     '''
     (str, int) -> list
