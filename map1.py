@@ -10,6 +10,7 @@ def user_input():
     '''
     year = int(input("Please, input the year" + '\n'))
     number = int(input("Please, input the number of films" + '\n'))
+    assert (number > 0)
     return year, number
 
 
